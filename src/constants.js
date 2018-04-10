@@ -1,0 +1,13 @@
+const SQRT_NUMBER_CIRCLES = 5;
+const MIN_RADIUS = 0;
+const MAX_RADIUS = 16;
+const NUMBER_CIRCLES = Math.pow(SQRT_NUMBER_CIRCLES, 2);
+const INDICES = [...Array(NUMBER_CIRCLES).keys()];
+
+module.exports = {
+  SQRT_NUMBER_CIRCLES,
+  MIN_RADIUS,
+  MAX_RADIUS,
+  NUMBER_CIRCLES,
+  INDICES,
+};

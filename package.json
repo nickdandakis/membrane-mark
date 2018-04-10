@@ -1,0 +1,35 @@
+{
+  "name": "membrane-mark",
+  "version": "0.0.1",
+  "description": "React Component of membrane's mark",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickdandakis/membrane-mark.git"
+  },
+  "author": "Nick Dandakis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickdandakis/membrane-mark/issues"
+  },
+  "homepage": "https://github.com/nickdandakis/membrane-mark#readme",
+  "dependencies": {
+    "lodash.isequal": "^4.5.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-spring": ">=4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
