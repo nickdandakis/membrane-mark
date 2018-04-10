@@ -19,4 +19,7 @@ module.exports = {
   getCoordinates,
   getRandom,
   getRandomRadius,
+  getRandomXY,
+  getRandomCoordinates,
+  reverseCoordinates,
 };

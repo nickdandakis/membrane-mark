@@ -16,6 +16,8 @@ import {
   getCoordinates,
   getRandom,
   getRandomRadius,
+  getRandomCoordinates,
+  reverseCoordinates,
 } from './utils';
 
 class Mark extends Component {
