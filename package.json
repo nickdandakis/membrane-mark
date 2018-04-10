@@ -1,6 +1,6 @@
 {
   "name": "membrane-mark",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Component of membrane's mark",
   "main": "dist/index.js",
   "scripts": {
