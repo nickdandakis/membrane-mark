@@ -32,9 +32,13 @@ class Mark extends Component {
   }, {});
 
   initialState = () => {
-    return {
-      previousRadii: Mark.INITIAL_RADII,
-      radii: INDICES.reduce((accumulator, index) => {
+    const previousRadii = Mark.INITIAL_RADII;
+
+    let radii;
+    if (this.props.radii) {
+      radii = this.props.radii;
+    } else {
+      radii = INDICES.reduce((accumulator, index) => {
         const { animation } = this.props;
 
         const xIndex = getX(index);
@@ -50,7 +54,12 @@ class Mark extends Component {
         }
 
         return accumulator;
-      }, {}),
+      }, {});
+    }
+
+    return {
+      previousRadii,
+      radii,
     };
   };
 
